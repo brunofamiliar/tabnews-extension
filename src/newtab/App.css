@@ -1,0 +1,75 @@
+:root {
+    --primary: #24292F;
+    --black-active: #383F48;
+}
+
+.container-tbw{
+    max-width: 1312px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.active{
+    background-color: var(--black-active);
+    border-radius: 9999px;
+}
+
+.wrapper-header{
+    background-color: var(--primary);
+    height: 64px;
+}
+
+h2 {
+    position: relative;
+}
+
+h2::after {
+    content: " ";
+    display: block;
+    width: 100%;
+    height: 0.01rem;
+    background-color: #D0D7DE;
+    margin-top: 16px;
+}
+
+.date{
+    background-color: #F1F1F1;
+    border-radius: 9999px;
+}
+
+.gold{
+    width: 48px;
+    height: 48px;
+    background-color: #FFF4BD;
+    border-radius: 8px;
+}
+
+.silver{
+    width: 48px;
+    height: 48px;
+    background-color: #81a5b028;
+    border-radius: 8px;
+}
+
+.bronze{
+    width: 48px;
+    height: 48px;
+    background-color: #FFD5AE;
+    border-radius: 8px;
+}
+
+.default{
+    width: 48px;
+    height: 48px;
+    background-color: #383f485e;
+    border-radius: 8px;
+}
+
+.item-list::after{
+    content: " ";
+    display: block;
+    width: 100%;
+    height: 0.01rem;
+    background-color: #D0D7DE;
+    margin-top: 32px;
+}
